@@ -18,29 +18,31 @@ for i in range(difference + 1):
 print(total)
 
 
-number = 2
-find = 30
-ntotal = 0
 
-ntotal += 10 + 3  # 2X, X2
-ntotal -= 1  # 22
-print(ntotal)
+# Experimenting with non 999 numbers
+# number = 2
+# find = 30
+# ntotal = 0
 
-number = 2
-find = 300
-ntotal = 0
+# ntotal += 10 + 3  # 2X, X2
+# ntotal -= 1  # 22
+# print(ntotal)
 
-ntotal += 100 + 3 * 10 + 3 * 10  # 2XX, X2X, XX2
-ntotal -= 10 + 10 + 3  # 22X, 2X2, X22
-ntotal += 1  # 222
-print(ntotal)
+# number = 2
+# find = 300
+# ntotal = 0
 
-number = 2
-find = 123
-ntotal = 0
+# ntotal += 100 + 3 * 10 + 3 * 10  # 2XX, X2X, XX2
+# ntotal -= 10 + 10 + 3  # 22X, 2X2, X22
+# ntotal += 1  # 222
+# print(ntotal)
 
-ntotal += 0 + (10 + 4) + (10 + 3)  # 2XX, X2X, XX2
-ntotal -= 0 + 0 + 2  # 22X, 2X2, X22
-ntotal += 0  # 222
+# number = 2
+# find = 123
+# ntotal = 0
 
-print(ntotal)
+# ntotal += 0 + (10 + 4) + (10 + 3)  # 2XX, X2X, XX2
+# ntotal -= 0 + 0 + 2  # 22X, 2X2, X22
+# ntotal += 0  # 222
+
+# print(ntotal)
