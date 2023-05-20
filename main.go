@@ -1,7 +1,9 @@
 package main
 
-import Easy "github.com/Logan9312/Kattis-Solutions/Easy"
+import (
+	"github.com/Logan9312/Kattis-Solutions/Medium"
+)
 
-func Main() {
-	Easy.Timeloop()
+func main() {
+	Medium.FroggerEasy()
 }
